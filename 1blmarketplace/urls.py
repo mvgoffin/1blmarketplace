@@ -29,26 +29,6 @@ urlpatterns = [
     path('', views.home),
     path('admin/', admin.site.urls),
     #path('home/', views.home, name='home'),
-    
-    #LSEG
-    path('loginlseg/', views.loginlseg, name='loginlseg'),
-    path('pagelseg/', views.pagelseg, name='pagelseg'),
-    #path('pagelseg_mike/', views.pagelseg_mike, name='pagelseg_mike'),
-
-    #BT
-    path('btlogin/', views.btlogin, name='btlogin'),
-    path('btpage/', views.btpage, name='btpage'),
-    #path('pagelseg_mike/', views.pagelseg_mike, name='pagelseg_mike'),
-
-    #BP
-    path('bplogin/', views.bplogin, name='bplogin'),
-    path('bppage/', views.bppage, name='bppage'),
-    #path('bppage_mike/', views.bppage_mike, name='bppage_mike'),
-
-    #Vodafone
-    path('loginvf/', views.loginvf, name='loginvf'),
-    path('pagevf/', views.pagevf, name='pagevf'),
-    #path('pagevf_mike/', views.pagevf_mike, name='pagevf_mike'),
 
     #----Zoi Marketplace----#
     path('zoi_home/', views.zoi_home, name='zoi_home'),
