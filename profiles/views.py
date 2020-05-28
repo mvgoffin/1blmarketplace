@@ -15,41 +15,105 @@ def home(request):
     return render(request,template,context)
 
 #1BLives - Rockstar
-def rockstar_home(request):
+def zoi_home(request):
     context = locals()
-    template = 'rockstar_home.html'
+    template = 'zoi_home.html'
     return render(request,template,context)
 
-def rockstar_about(request):
+def zoi_about(request):
     context = locals()
-    template = 'rockstar_about.html'
+    template = 'zoi_about.html'
     return render(request,template,context)
 
-def rockstar_registration(request):
+def zoi_registration(request):
     context = locals()
-    template = 'rockstar_registration.html'
+    template = 'zoi_registration.html'
     return render(request,template,context)
 
-def rockstar_laptops(request):
+def zoi_laptops(request):
     context = locals()
-    template = 'rockstar_laptops.html'
+    template = 'zoi_laptops.html'
     return render(request,template,context)
     
-def rockstar_product(request):
+def zoi_product(request):
     context = locals()
-    template = 'rockstar_product.html'
+    template = 'zoi_product.html'
     return render(request,template,context)
 
-def rockstar_checkout(request):
+def zoi_checkout(request):
     context = locals()
-    template = 'rockstar_checkout.html'
+    template = 'zoi_checkout.html'
     return render(request,template,context)
 
-def rockstar_thankyou(request):
+def zoi_thankyou(request):
     context = locals()
-    template = 'rockstar_thankyou.html'
+    template = 'zoi_thankyou.html'
     return render(request,template,context)
 
+
+#LSEG
+def loginlseg(request):
+    context = locals()
+    template = 'loginlseg.html'
+    return render(request,template,context)
+
+def pagelseg(request):
+    context = locals()
+    template = 'pagelseg.html'
+    return render(request,template,context)
+
+def pagelseg_mike(request):
+    context = locals()
+    template = 'pagelseg_mike.html'
+    return render(request,template,context)
+
+#BT
+def btlogin(request):
+    context = locals()
+    template = 'btlogin.html'
+    return render(request,template,context)
+
+def btpage(request):
+    context = locals()
+    template = 'btpage.html'
+    return render(request,template,context)
+
+def btpage_mike(request):
+    context = locals()
+    template = 'btpage_mike.html'
+    return render(request,template,context)
+
+#BP
+def bplogin(request):
+    context = locals()
+    template = 'bplogin.html'
+    return render(request,template,context)
+
+def bppage(request):
+    context = locals()
+    template = 'bppage.html'
+    return render(request,template,context)
+
+def bppage_mike(request):
+    context = locals()
+    template = 'bppage_mike.html'
+    return render(request,template,context)
+
+#Vodafone
+def loginvf(request):
+    context = locals()
+    template = 'loginvf.html'
+    return render(request,template,context)
+
+def pagevf(request):
+    context = locals()
+    template = 'pagevf.html'
+    return render(request,template,context)
+
+def pagevf_mike(request):
+    context = locals()
+    template = 'pagevf_mike.html'
+    return render(request,template,context)
 
 #greencourt technologies
 def gclogin(request):
@@ -61,3 +125,17 @@ def gcpage(request):
     context = locals()
     template = 'gcpage.html'
     return render(request,template,context)
+
+def pagevf_mike(request):
+    context = locals()
+    template = 'pagevf_mike.html'
+    return render(request,template,context)
+
+
+#def pagevf_ariana(request):
+ #   context = locals()
+  #  template = 'pagevf_ariana.html'
+   # return render(request,template,context)
+
+
+
